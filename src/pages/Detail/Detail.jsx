@@ -1,7 +1,7 @@
 function Detail() {
   return (
     <div>
-      <div>111111</div>
+      <div> 글 상세내용 </div>
     </div>
   );
 }
