@@ -11,7 +11,6 @@ function Home() {
             <th className="w-[159px] p-1"> 글쓴이 </th>
             <th className="w-[159px] p-1"> 조회수 </th>
             <th className="w-[159px] p-1"> 좋아요 수 </th>
-            <th className="w-[159px] p-1"> 싫어요 수 </th>
           </tr>
         </thead>
         <tbody className="border-b-2 border-b-green-500">
@@ -23,7 +22,6 @@ function Home() {
             <td className="py-2 px-1"> ㅇㅇㅇ </td>
             <td className="py-2 px-1"> 2025-08-21 </td>
             <td className="py-2 px-1"> 3 </td>
-            <td className="py-2 px-1"> 6 </td>
           </tr>
 
           <tr className="text-center border-b border-b-gray-300">
@@ -34,7 +32,6 @@ function Home() {
             <td className="py-2 px-1"> ㅇㅇ </td>
             <td className="py-2 px-1"> 2025-08-21 </td>
             <td className="py-2 px-1"> 3 </td>
-            <td className="py-2 px-1"> 6 </td>
           </tr>
         </tbody>
       </table>

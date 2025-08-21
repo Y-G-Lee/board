@@ -4,6 +4,7 @@ import banner from "./assets/banner.jpg";
 import Home from "./pages/Home/Home";
 import Detail from "./pages/Detail/Detail";
 import Write from "./pages/Write/Write";
+import Correction from "./pages/Correction/Correction";
 function App() {
   return (
     <div className="w-[1280px] m-auto">
@@ -11,11 +12,12 @@ function App() {
         <img src={banner} className="w-full h-full" />
       </div>
 
-      <div className="flex justify-center">
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/write" element={<Write />} />
           <Route path="/detail" element={<Detail />} />
+          <Route path="/correction" element={<Correction />} />
         </Routes>
       </div>
     </div>
